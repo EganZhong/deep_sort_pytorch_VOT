@@ -3,9 +3,10 @@ import torchvision
 
 try:
     import torch
-    import torch_extension
+    # import torch_extension
 
-    _nms = torch_extension.nms
+    # _nms = torch_extension.nms
+    _nms = torchvision.ops.nms
 except ImportError:
     if torchvision.__version__ >= '0.3.0':
         _nms = torchvision.ops.nms
