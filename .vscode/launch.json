@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: deepsort",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/deepsort.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["/home/egan/vscode/DataSet/OTB50/Basketball/img.avi", 
+            "--display", "--display_width", "900"]
+        }
+    ]
+}
